@@ -26,5 +26,10 @@ namespace WindowsFormsAppTest
         {
             Application.Exit();
         }
+
+        private void ButtonMenuCreeaza_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bravo! Ai creat un contract nou!");
+        }
     }
 }

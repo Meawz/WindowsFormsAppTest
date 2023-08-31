@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.buttonExitMenu = new System.Windows.Forms.Button();
+            this.ButtonMenuCreeaza = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // buttonExitMenu
@@ -42,11 +43,23 @@
             this.buttonExitMenu.UseVisualStyleBackColor = true;
             this.buttonExitMenu.Click += new System.EventHandler(this.ButtonExitMenu_Click);
             // 
+            // ButtonMenuCreeaza
+            // 
+            this.ButtonMenuCreeaza.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ButtonMenuCreeaza.Location = new System.Drawing.Point(12, 12);
+            this.ButtonMenuCreeaza.Name = "ButtonMenuCreeaza";
+            this.ButtonMenuCreeaza.Size = new System.Drawing.Size(165, 53);
+            this.ButtonMenuCreeaza.TabIndex = 1;
+            this.ButtonMenuCreeaza.Text = "Creeaza un nou \r\ncontract\r\n";
+            this.ButtonMenuCreeaza.UseVisualStyleBackColor = true;
+            this.ButtonMenuCreeaza.Click += new System.EventHandler(this.ButtonMenuCreeaza_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ButtonMenuCreeaza);
             this.Controls.Add(this.buttonExitMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
@@ -59,5 +72,6 @@
         #endregion
 
         private System.Windows.Forms.Button buttonExitMenu;
+        private System.Windows.Forms.Button ButtonMenuCreeaza;
     }
 }
