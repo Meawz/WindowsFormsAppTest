@@ -32,6 +32,7 @@ namespace WindowsFormsAppTest
             }
             else if (textBoxUser.Text == "Test" && textBoxPass.Text == "123")
             {
+                this.Hide();
                 Form2 Menu = new Form2();
                 Menu.ShowDialog();
             }
