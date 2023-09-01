@@ -28,20 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.buttonExitMenu = new System.Windows.Forms.Button();
+            this.ButtonExitMenu = new System.Windows.Forms.Button();
             this.ButtonMenuCreeaza = new System.Windows.Forms.Button();
+            this.ButtonBackMenu = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // buttonExitMenu
+            // ButtonExitMenu
             // 
-            this.buttonExitMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.buttonExitMenu.Location = new System.Drawing.Point(713, 415);
-            this.buttonExitMenu.Name = "buttonExitMenu";
-            this.buttonExitMenu.Size = new System.Drawing.Size(75, 23);
-            this.buttonExitMenu.TabIndex = 0;
-            this.buttonExitMenu.Text = "Exit";
-            this.buttonExitMenu.UseVisualStyleBackColor = true;
-            this.buttonExitMenu.Click += new System.EventHandler(this.ButtonExitMenu_Click);
+            this.ButtonExitMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ButtonExitMenu.Location = new System.Drawing.Point(713, 415);
+            this.ButtonExitMenu.Name = "ButtonExitMenu";
+            this.ButtonExitMenu.Size = new System.Drawing.Size(75, 23);
+            this.ButtonExitMenu.TabIndex = 0;
+            this.ButtonExitMenu.Text = "Exit";
+            this.ButtonExitMenu.UseVisualStyleBackColor = true;
+            this.ButtonExitMenu.Click += new System.EventHandler(this.ButtonExitMenu_Click);
             // 
             // ButtonMenuCreeaza
             // 
@@ -54,13 +55,25 @@
             this.ButtonMenuCreeaza.UseVisualStyleBackColor = true;
             this.ButtonMenuCreeaza.Click += new System.EventHandler(this.ButtonMenuCreeaza_Click);
             // 
+            // ButtonBackMenu
+            // 
+            this.ButtonBackMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.ButtonBackMenu.Location = new System.Drawing.Point(12, 415);
+            this.ButtonBackMenu.Name = "ButtonBackMenu";
+            this.ButtonBackMenu.Size = new System.Drawing.Size(75, 23);
+            this.ButtonBackMenu.TabIndex = 2;
+            this.ButtonBackMenu.Text = "Back";
+            this.ButtonBackMenu.UseVisualStyleBackColor = true;
+            this.ButtonBackMenu.Click += new System.EventHandler(this.ButtonBackMenu_Click);
+            // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.ButtonBackMenu);
             this.Controls.Add(this.ButtonMenuCreeaza);
-            this.Controls.Add(this.buttonExitMenu);
+            this.Controls.Add(this.ButtonExitMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form2";
             this.Text = "Menu";
@@ -71,7 +84,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Button buttonExitMenu;
+        private System.Windows.Forms.Button ButtonExitMenu;
         private System.Windows.Forms.Button ButtonMenuCreeaza;
+        private System.Windows.Forms.Button ButtonBackMenu;
     }
 }

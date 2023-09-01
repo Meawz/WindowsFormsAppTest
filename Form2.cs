@@ -29,7 +29,16 @@ namespace WindowsFormsAppTest
 
         private void ButtonMenuCreeaza_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Bravo! Ai creat un contract nou!");
+            this.Hide();
+            Form3 Create = new Form3();
+            Create.ShowDialog();
+        }
+
+        private void ButtonBackMenu_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 backToLogin = new Form1();
+            backToLogin.ShowDialog();
         }
     }
 }
