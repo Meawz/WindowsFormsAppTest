@@ -74,7 +74,7 @@
             this.Controls.Add(this.ButtonBackMenu);
             this.Controls.Add(this.ButtonMenuCreeaza);
             this.Controls.Add(this.ButtonExitMenu);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form2";
             this.Text = "Menu";
             this.Load += new System.EventHandler(this.Form2_Load);

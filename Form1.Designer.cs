@@ -111,7 +111,7 @@
             this.Controls.Add(this.textBoxPass);
             this.Controls.Add(this.textBoxUser);
             this.Cursor = System.Windows.Forms.Cursors.Default;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form1";
             this.Text = "Log In";
             this.Load += new System.EventHandler(this.Form1_Load);

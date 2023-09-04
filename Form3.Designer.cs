@@ -37,6 +37,8 @@
             this.TextBoxBeneficiary = new System.Windows.Forms.TextBox();
             this.TextBoxAdress = new System.Windows.Forms.TextBox();
             this.TextBoxCNP = new System.Windows.Forms.TextBox();
+            this.LabelRegisteredContract = new System.Windows.Forms.Label();
+            this.dateTimePickerContract = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // ButtonExitCreate
@@ -76,7 +78,7 @@
             // 
             this.LabelBeneficiaryContract.AutoSize = true;
             this.LabelBeneficiaryContract.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelBeneficiaryContract.Location = new System.Drawing.Point(13, 85);
+            this.LabelBeneficiaryContract.Location = new System.Drawing.Point(22, 88);
             this.LabelBeneficiaryContract.Name = "LabelBeneficiaryContract";
             this.LabelBeneficiaryContract.Size = new System.Drawing.Size(74, 13);
             this.LabelBeneficiaryContract.TabIndex = 3;
@@ -86,7 +88,7 @@
             // 
             this.LabelAdressContract.AutoSize = true;
             this.LabelAdressContract.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelAdressContract.Location = new System.Drawing.Point(38, 119);
+            this.LabelAdressContract.Location = new System.Drawing.Point(47, 119);
             this.LabelAdressContract.Name = "LabelAdressContract";
             this.LabelAdressContract.Size = new System.Drawing.Size(49, 13);
             this.LabelAdressContract.TabIndex = 4;
@@ -96,7 +98,7 @@
             // 
             this.LabelCNPContract.AutoSize = true;
             this.LabelCNPContract.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LabelCNPContract.Location = new System.Drawing.Point(51, 164);
+            this.LabelCNPContract.Location = new System.Drawing.Point(60, 145);
             this.LabelCNPContract.Name = "LabelCNPContract";
             this.LabelCNPContract.Size = new System.Drawing.Size(36, 13);
             this.LabelCNPContract.TabIndex = 5;
@@ -104,7 +106,7 @@
             // 
             // TextBoxBeneficiary
             // 
-            this.TextBoxBeneficiary.Location = new System.Drawing.Point(106, 82);
+            this.TextBoxBeneficiary.Location = new System.Drawing.Point(106, 85);
             this.TextBoxBeneficiary.Name = "TextBoxBeneficiary";
             this.TextBoxBeneficiary.Size = new System.Drawing.Size(157, 20);
             this.TextBoxBeneficiary.TabIndex = 6;
@@ -118,7 +120,7 @@
             // 
             // TextBoxCNP
             // 
-            this.TextBoxCNP.Location = new System.Drawing.Point(106, 157);
+            this.TextBoxCNP.Location = new System.Drawing.Point(106, 142);
             this.TextBoxCNP.MaxLength = 13;
             this.TextBoxCNP.Name = "TextBoxCNP";
             this.TextBoxCNP.Size = new System.Drawing.Size(157, 20);
@@ -126,11 +128,32 @@
             this.TextBoxCNP.TextChanged += new System.EventHandler(this.TextBoxCNP_TextChanged);
             this.TextBoxCNP.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBoxCNP_KeyPress);
             // 
+            // LabelRegisteredContract
+            // 
+            this.LabelRegisteredContract.AutoSize = true;
+            this.LabelRegisteredContract.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelRegisteredContract.Location = new System.Drawing.Point(9, 177);
+            this.LabelRegisteredContract.Name = "LabelRegisteredContract";
+            this.LabelRegisteredContract.Size = new System.Drawing.Size(87, 13);
+            this.LabelRegisteredContract.TabIndex = 9;
+            this.LabelRegisteredContract.Text = "Registered In:";
+            // 
+            // dateTimePickerContract
+            // 
+            this.dateTimePickerContract.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
+            this.dateTimePickerContract.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dateTimePickerContract.Location = new System.Drawing.Point(106, 171);
+            this.dateTimePickerContract.Name = "dateTimePickerContract";
+            this.dateTimePickerContract.Size = new System.Drawing.Size(98, 20);
+            this.dateTimePickerContract.TabIndex = 10;
+            // 
             // Form3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(945, 536);
+            this.Controls.Add(this.dateTimePickerContract);
+            this.Controls.Add(this.LabelRegisteredContract);
             this.Controls.Add(this.TextBoxCNP);
             this.Controls.Add(this.TextBoxAdress);
             this.Controls.Add(this.TextBoxBeneficiary);
@@ -140,7 +163,7 @@
             this.Controls.Add(this.LabelTitluContract);
             this.Controls.Add(this.ButtonBackCreate);
             this.Controls.Add(this.ButtonExitCreate);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow;
             this.Name = "Form3";
             this.Text = "Creeaza Contract";
             this.ResumeLayout(false);
@@ -159,5 +182,7 @@
         private System.Windows.Forms.TextBox TextBoxBeneficiary;
         private System.Windows.Forms.TextBox TextBoxAdress;
         private System.Windows.Forms.TextBox TextBoxCNP;
+        private System.Windows.Forms.Label LabelRegisteredContract;
+        private System.Windows.Forms.DateTimePicker dateTimePickerContract;
     }
 }
