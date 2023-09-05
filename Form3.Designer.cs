@@ -150,11 +150,11 @@
             this.dateTimePickerContract.DropDownAlign = System.Windows.Forms.LeftRightAlignment.Right;
             this.dateTimePickerContract.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateTimePickerContract.Location = new System.Drawing.Point(127, 206);
-            this.dateTimePickerContract.MaxDate = new System.DateTime(2023, 9, 4, 0, 0, 0, 0);
+            this.dateTimePickerContract.MaxDate = new System.DateTime(2200, 12, 31, 0, 0, 0, 0);
             this.dateTimePickerContract.Name = "dateTimePickerContract";
             this.dateTimePickerContract.Size = new System.Drawing.Size(98, 20);
             this.dateTimePickerContract.TabIndex = 10;
-            this.dateTimePickerContract.Value = new System.DateTime(2023, 9, 4, 0, 0, 0, 0);
+            this.dateTimePickerContract.Value = new System.DateTime(2023, 9, 5, 0, 0, 0, 0);
             // 
             // d
             // 
