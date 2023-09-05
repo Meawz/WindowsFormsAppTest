@@ -5,6 +5,13 @@ namespace WindowsFormsAppTest
 {
     public partial class Form1 : Form
     {
+
+        private void ClearTextBoxes()
+        {
+            textBoxUser.Clear();
+            textBoxPass.Clear();
+        }
+
         public Form1()
         {
             InitializeComponent();
@@ -30,15 +37,22 @@ namespace WindowsFormsAppTest
             {
                 MessageBox.Show("Enter Password!");
             }
+            
+            else if (textBoxUser.Text != "Test")
+            {
+                MessageBox.Show("Invalid username!");
+                ClearTextBoxes();
+            }
+            else if (textBoxUser.Text != "123")
+            {
+                MessageBox.Show("Invalid password");
+                ClearTextBoxes();
+            }
             else if (textBoxUser.Text == "Test" && textBoxPass.Text == "123")
             {
                 this.Hide();
                 Form2 Menu = new Form2();
                 Menu.ShowDialog();
-            }
-            else
-            {
-                MessageBox.Show("Invalid Credentials!");
             }
         }
     }
