@@ -71,6 +71,12 @@ namespace WindowsFormsAppTest
                     TextBoxCNP.Focus();
                     return;
                 }
+                if (TextBoxCNP.TextLength < 13)
+                {
+                    MessageBox.Show("CNP is too short!");
+                    TextBoxCNP.Focus();
+                    return;
+                }
             else
             {
                 MessageBox.Show("Great! You've registered a contract");
