@@ -40,7 +40,7 @@
             // 
             this.textBoxUser.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxUser.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxUser.Location = new System.Drawing.Point(292, 91);
+            this.textBoxUser.Location = new System.Drawing.Point(441, 91);
             this.textBoxUser.Name = "textBoxUser";
             this.textBoxUser.Size = new System.Drawing.Size(189, 21);
             this.textBoxUser.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             this.textBoxPass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBoxPass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxPass.Location = new System.Drawing.Point(292, 153);
+            this.textBoxPass.Location = new System.Drawing.Point(441, 151);
             this.textBoxPass.Name = "textBoxPass";
             this.textBoxPass.PasswordChar = '*';
             this.textBoxPass.Size = new System.Drawing.Size(189, 21);
@@ -59,7 +59,7 @@
             // 
             this.labelUser.AutoSize = true;
             this.labelUser.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelUser.Location = new System.Drawing.Point(247, 94);
+            this.labelUser.Location = new System.Drawing.Point(396, 94);
             this.labelUser.Name = "labelUser";
             this.labelUser.Size = new System.Drawing.Size(39, 16);
             this.labelUser.TabIndex = 2;
@@ -69,7 +69,7 @@
             // 
             this.labelPassword.AutoSize = true;
             this.labelPassword.Font = new System.Drawing.Font("Cambria", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelPassword.Location = new System.Drawing.Point(214, 156);
+            this.labelPassword.Location = new System.Drawing.Point(363, 154);
             this.labelPassword.Name = "labelPassword";
             this.labelPassword.Size = new System.Drawing.Size(72, 16);
             this.labelPassword.TabIndex = 3;
@@ -79,7 +79,7 @@
             // 
             this.buttonLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonLogin.Font = new System.Drawing.Font("Cambria", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonLogin.Location = new System.Drawing.Point(349, 211);
+            this.buttonLogin.Location = new System.Drawing.Point(502, 207);
             this.buttonLogin.Name = "buttonLogin";
             this.buttonLogin.Size = new System.Drawing.Size(75, 23);
             this.buttonLogin.TabIndex = 4;
@@ -91,7 +91,7 @@
             // 
             this.buttonExitLogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonExitLogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonExitLogin.Location = new System.Drawing.Point(713, 415);
+            this.buttonExitLogin.Location = new System.Drawing.Point(992, 571);
             this.buttonExitLogin.Name = "buttonExitLogin";
             this.buttonExitLogin.Size = new System.Drawing.Size(75, 23);
             this.buttonExitLogin.TabIndex = 5;
@@ -104,7 +104,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1079, 606);
             this.Controls.Add(this.buttonExitLogin);
             this.Controls.Add(this.buttonLogin);
             this.Controls.Add(this.labelPassword);

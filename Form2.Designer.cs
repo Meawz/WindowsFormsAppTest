@@ -36,7 +36,7 @@
             // ButtonExitMenu
             // 
             this.ButtonExitMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ButtonExitMenu.Location = new System.Drawing.Point(713, 415);
+            this.ButtonExitMenu.Location = new System.Drawing.Point(992, 571);
             this.ButtonExitMenu.Name = "ButtonExitMenu";
             this.ButtonExitMenu.Size = new System.Drawing.Size(75, 23);
             this.ButtonExitMenu.TabIndex = 0;
@@ -58,7 +58,7 @@
             // ButtonBackMenu
             // 
             this.ButtonBackMenu.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.ButtonBackMenu.Location = new System.Drawing.Point(12, 415);
+            this.ButtonBackMenu.Location = new System.Drawing.Point(12, 571);
             this.ButtonBackMenu.Name = "ButtonBackMenu";
             this.ButtonBackMenu.Size = new System.Drawing.Size(75, 23);
             this.ButtonBackMenu.TabIndex = 2;
@@ -71,7 +71,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGray;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1079, 606);
             this.Controls.Add(this.ButtonBackMenu);
             this.Controls.Add(this.ButtonMenuCreeaza);
             this.Controls.Add(this.ButtonExitMenu);
