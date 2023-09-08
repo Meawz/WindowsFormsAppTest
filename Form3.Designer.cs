@@ -403,7 +403,7 @@
             // 
             this.richTextBoxObiectContract.Location = new System.Drawing.Point(304, 101);
             this.richTextBoxObiectContract.Name = "richTextBoxObiectContract";
-            this.richTextBoxObiectContract.Size = new System.Drawing.Size(254, 70);
+            this.richTextBoxObiectContract.Size = new System.Drawing.Size(306, 70);
             this.richTextBoxObiectContract.TabIndex = 35;
             this.richTextBoxObiectContract.Text = "";
             // 
