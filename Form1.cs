@@ -56,13 +56,9 @@ namespace WindowsFormsAppTest
                          }
 
 
-            if (textBoxUser.Text == " ")
+            if (textBoxUser.Text == string.Empty || textBoxPass.Text == string.Empty)
             {
-                MessageBox.Show("Enter User!");
-            }
-            else if (textBoxPass.Text == " ")
-            {
-                MessageBox.Show("Enter Password!");
+                MessageBox.Show("Enter credentials!");
             }
             
             else if (textBoxUser.Text != FromXML_user)
